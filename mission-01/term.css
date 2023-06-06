@@ -1,0 +1,62 @@
+.a11yHidden,
+legend {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.dl_box {
+  background: linear-gradient(180deg, #cccccc, #eeeeee);
+  padding: 16px;
+  box-sizing: border-box;
+  width: 250px;
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+img {
+  float: left;
+  margin-right: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+
+dl {
+  font-size: 14px;
+}
+dt {
+  color: #296897;
+  margin-bottom: 4px;
+}
+dd {
+  line-height: 21px;
+}
+
+.right_box {
+  margin-top: 12px;
+}
+.right_box img {
+  float: right;
+  margin: 0;
+  margin-left: 16px;
+}
+
+.right_box dd {
+  margin: 0;
+}
