@@ -1,0 +1,95 @@
+.login_box {
+  background: linear-gradient(90deg, #ed552f, #e8852e);
+  padding: 12px;
+  border-radius: 5px;
+  width: 244px;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 0px #aaaaaa;
+}
+
+form {
+  background: #fff;
+  border-radius: 5px;
+  padding: 8px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+h1 {
+  color: #ffff00;
+  font-size: 15px;
+}
+label {
+  font-size: 14px;
+}
+
+.form_input_container input {
+  width: 90px;
+  height: 18px;
+}
+
+.form_input_container {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.form_input_wrapper {
+  display: inline-block;
+  text-align: right;
+}
+.form_input_wrapper:first-child {
+  margin-bottom: 4px;
+}
+
+.form_input_wrapper label {
+  width: 49px;
+  display: inline-block;
+  text-align: left;
+}
+
+.form_link_wrapper {
+  border-top: 1px solid #cccccc;
+  padding-top: 8px;
+  margin-top: 8px;
+}
+
+.forn_button_container {
+  display: inline-block;
+  width: 50px;
+  position: absolute;
+  right: 8px;
+}
+
+.forn_button_container input {
+  width: 50px;
+  height: 53px;
+  background-color: #ed552f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+}
+
+.form_link_wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+.form_link_wrapper ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.form_link_wrapper li a {
+  font-size: 13px;
+  text-decoration: none;
+  color: inherit;
+  float: left;
+}
+
+.form_link_wrapper li:nth-of-type(2) a {
+  float: right;
+}
