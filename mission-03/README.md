@@ -13,4 +13,4 @@ transition과제
 overflow:hidden 속성을 부여함<br>
 3. 목록에 마우스를 올리면 모든 항목을 보여주기위해 :hover로 height값을 고정값 부여
 처음에는 height: auto로 했으나 transition은 고정값에 작동하기 때문에 고정값을 부여함
-4. transition 속성을 hover에 부여해야한다고 생각했으나 아니였음, 다시 공부 필요힘
+4. transition 속성을 hover에 부여해야한다고 생각했으나 아니였음, 다시 공부 필요함
