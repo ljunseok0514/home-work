@@ -1,2 +1,2 @@
-<img src="resul.png"/>
+<img src="result.png"/>
 test
