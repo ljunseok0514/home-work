@@ -7,6 +7,7 @@
   box-shadow: 7px 7px 0px #aaaaaa;
 }
 
+/* 흰색배경부분 */
 form {
   background: #fff;
   border-radius: 5px;
@@ -15,28 +16,25 @@ form {
   position: relative;
 }
 
+/* 대제목 */
 h1 {
   color: #ffff00;
   font-size: 15px;
 }
+/* 인풋라벨 */
 label {
   font-size: 14px;
 }
-
-.form_input_container input {
-  width: 90px;
-  height: 18px;
-}
-
+/* 인풋 전체 컨테이너*/
 .form_input_container {
   display: inline-block;
   margin-bottom: 4px;
 }
-
-.form_input_wrapper {
-  display: inline-block;
-  text-align: right;
+.form_input_container input {
+  width: 90px;
+  height: 18px;
 }
+/* 인풋 박스 */
 .form_input_wrapper:first-child {
   margin-bottom: 4px;
 }
@@ -47,20 +45,13 @@ label {
   text-align: left;
 }
 
-.form_link_wrapper {
-  border-top: 1px solid #cccccc;
-  padding-top: 8px;
-  margin-top: 8px;
-}
-
-.forn_button_container {
-  display: inline-block;
-  width: 50px;
+.form_button_container {
   position: absolute;
   right: 8px;
+  top: 6px;
 }
 
-.forn_button_container input {
+.form_button_container input {
   width: 50px;
   height: 53px;
   background-color: #ed552f;
@@ -68,6 +59,12 @@ label {
   border-radius: 5px;
   color: white;
   font-size: 13px;
+}
+/* 회원가입 아이디 비밀번호찾기 */
+.form_link_wrapper {
+  border-top: 1px solid #cccccc;
+  padding-top: 8px;
+  margin-top: 8px;
 }
 
 .form_link_wrapper::after {
