@@ -1,0 +1,88 @@
+.favoriteSite_container {
+  width: 190px;
+  background: linear-gradient(180deg, #cccccc, #eeeeee);
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #a3a3a3;
+}
+
+.favoriteSite_title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+.title_orange {
+  color: #ed552f;
+}
+
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+ol {
+  counter-reset: index;
+}
+
+.site_li {
+  position: relative;
+  margin-bottom: 8px;
+  background: url(./../mission-01/images/rank.png) no-repeat;
+}
+
+.W3C {
+  background-position: 157px 4px;
+}
+.Web_Standards {
+  background-position: 157px -41px;
+}
+.CSS_ZenGarden {
+  background-position: 157px -17px;
+}
+.MDN {
+  background-position: 157px 4px;
+}
+.site_name {
+  padding-left: 20px;
+}
+.site_name::before {
+  position: absolute;
+  counter-increment: index;
+  content: "" counter(index);
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 16px;
+  border-radius: 4px;
+  background: #a3a3a3;
+  color: #fff;
+  margin-right: 4px;
+  left: -0px;
+}
+
+.site_more {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 14px;
+}
